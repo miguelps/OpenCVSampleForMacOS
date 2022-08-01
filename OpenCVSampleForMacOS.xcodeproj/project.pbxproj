@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		1831FF0124D1087F00E50E1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831FF0024D1087F00E50E1C /* AppDelegate.swift */; };
 		1831FF0324D1088400E50E1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1831FF0224D1088400E50E1C /* Assets.xcassets */; };
-		1831FF1224D1088500E50E1C /* OpenCVSampleForMacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831FF1124D1088500E50E1C /* OpenCVSampleForMacOSTests.swift */; };
-		1831FF1D24D1088500E50E1C /* OpenCVSampleForMacOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831FF1C24D1088500E50E1C /* OpenCVSampleForMacOSUITests.swift */; };
 		1831FF2C24D1096900E50E1C /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1831FF2B24D1096900E50E1C /* opencv2.framework */; };
 		1831FF3124D10A9200E50E1C /* CVCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1831FF3024D10A9200E50E1C /* CVCamera.mm */; };
 		1831FF3324D112EB00E50E1C /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1831FF3224D112EB00E50E1C /* OpenCL.framework */; };
@@ -48,11 +46,7 @@
 		1831FF0724D1088400E50E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1831FF0824D1088400E50E1C /* OpenCVSampleForMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenCVSampleForMacOS.entitlements; sourceTree = "<group>"; };
 		1831FF0D24D1088500E50E1C /* OpenCVSampleForMacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCVSampleForMacOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1831FF1124D1088500E50E1C /* OpenCVSampleForMacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCVSampleForMacOSTests.swift; sourceTree = "<group>"; };
-		1831FF1324D1088500E50E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1831FF1824D1088500E50E1C /* OpenCVSampleForMacOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCVSampleForMacOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1831FF1C24D1088500E50E1C /* OpenCVSampleForMacOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCVSampleForMacOSUITests.swift; sourceTree = "<group>"; };
-		1831FF1E24D1088500E50E1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1831FF2B24D1096900E50E1C /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		1831FF2E24D10A9100E50E1C /* OpenCVSampleForMacOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenCVSampleForMacOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		1831FF2F24D10A9200E50E1C /* CVCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVCamera.h; sourceTree = "<group>"; };
@@ -105,8 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				1831FEFF24D1087F00E50E1C /* OpenCVSampleForMacOS */,
-				1831FF1024D1088500E50E1C /* OpenCVSampleForMacOSTests */,
-				1831FF1B24D1088500E50E1C /* OpenCVSampleForMacOSUITests */,
 				1831FF2A24D1093D00E50E1C /* Frameworks */,
 				1831FEFE24D1087F00E50E1C /* Products */,
 			);
@@ -125,35 +117,17 @@
 		1831FEFF24D1087F00E50E1C /* OpenCVSampleForMacOS */ = {
 			isa = PBXGroup;
 			children = (
-				1831FF0024D1087F00E50E1C /* AppDelegate.swift */,
-				1831FF0224D1088400E50E1C /* Assets.xcassets */,
-				1831FF0724D1088400E50E1C /* Info.plist */,
-				1831FF2F24D10A9200E50E1C /* CVCamera.h */,
-				1831FF3024D10A9200E50E1C /* CVCamera.mm */,
-				1831FF3824D12DB300E50E1C /* MainMenu.xib */,
-				1831FF0824D1088400E50E1C /* OpenCVSampleForMacOS.entitlements */,
 				1831FF2E24D10A9100E50E1C /* OpenCVSampleForMacOS-Bridging-Header.h */,
 				1831FF3624D1145200E50E1C /* ScanViewController.swift */,
+				1831FF0024D1087F00E50E1C /* AppDelegate.swift */,
+				1831FF2F24D10A9200E50E1C /* CVCamera.h */,
+				1831FF3024D10A9200E50E1C /* CVCamera.mm */,
+				1831FF0824D1088400E50E1C /* OpenCVSampleForMacOS.entitlements */,
+				1831FF3824D12DB300E50E1C /* MainMenu.xib */,
+				1831FF0224D1088400E50E1C /* Assets.xcassets */,
+				1831FF0724D1088400E50E1C /* Info.plist */,
 			);
 			path = OpenCVSampleForMacOS;
-			sourceTree = "<group>";
-		};
-		1831FF1024D1088500E50E1C /* OpenCVSampleForMacOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				1831FF1124D1088500E50E1C /* OpenCVSampleForMacOSTests.swift */,
-				1831FF1324D1088500E50E1C /* Info.plist */,
-			);
-			path = OpenCVSampleForMacOSTests;
-			sourceTree = "<group>";
-		};
-		1831FF1B24D1088500E50E1C /* OpenCVSampleForMacOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1831FF1C24D1088500E50E1C /* OpenCVSampleForMacOSUITests.swift */,
-				1831FF1E24D1088500E50E1C /* Info.plist */,
-			);
-			path = OpenCVSampleForMacOSUITests;
 			sourceTree = "<group>";
 		};
 		1831FF2A24D1093D00E50E1C /* Frameworks */ = {
@@ -312,7 +286,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1831FF1224D1088500E50E1C /* OpenCVSampleForMacOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +293,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1831FF1D24D1088500E50E1C /* OpenCVSampleForMacOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,7 +435,7 @@
 				CODE_SIGN_ENTITLEMENTS = OpenCVSampleForMacOS/OpenCVSampleForMacOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = VJJ58UR69U;
+				DEVELOPMENT_TEAM = DKPZWWJCPK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -490,7 +462,7 @@
 				CODE_SIGN_ENTITLEMENTS = OpenCVSampleForMacOS/OpenCVSampleForMacOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = VJJ58UR69U;
+				DEVELOPMENT_TEAM = DKPZWWJCPK;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
